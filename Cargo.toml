@@ -1,0 +1,16 @@
+[package]
+name = "fund_distributor"
+version = "0.1.0"
+edition = "2021"
+authors = ["ComposabilityLabs"]
+license = "Apache-2.0"
+
+[dependencies]
+fuels = { version = "0.66.9" }
+fuel-core = "0.40.0"
+
+
+tokio = { version = "1.12", features = ["rt", "macros", "full"] }
+dotenv = "0.15.0"
+clap = { version = "3.0.0", features = ["derive"] }
+
